@@ -130,6 +130,8 @@ img {
 .container {
   width: auto; /* l'ho inserito per annullare la proprietà with del container */
   max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .row {
@@ -137,10 +139,15 @@ img {
 }
 
 @media screen and (max-width: 768px) {
-  /* non l'ho utilizzato perchè modificando il container restringendo la finestra si adatta con il comportamento di deafult*/
+  .container {
+    max-width: 768px;
+  }
 }
 
 @media screen and (max-width: 480px) {
+  .container {
+    max-width: 480px;
+  }
   .lessons .col,
   .steps .col {
     width: 100%;
