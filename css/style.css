@@ -128,7 +128,7 @@ img {
         SOLUZIONE RESPONSIVE
     ************************************************/
 .container {
-  width: auto;
+  width: auto; /* l'ho inserito per annullare la proprietà with del container */
   max-width: 1140px;
 }
 
@@ -137,12 +137,10 @@ img {
 }
 
 @media screen and (max-width: 768px) {
+  /* non l'ho utilizzato perchè modificando il container restringendo la finestra si adatta con il comportamento di deafult*/
 }
 
 @media screen and (max-width: 480px) {
-  .row {
-    flex-wrap: wrap;
-  }
   .lessons .col,
   .steps .col {
     width: 100%;
