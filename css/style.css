@@ -144,5 +144,6 @@ img {
   .lessons .col,
   .steps .col {
     width: 100%;
+    padding-bottom: 35px;
   }
 }
