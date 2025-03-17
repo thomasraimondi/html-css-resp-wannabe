@@ -137,20 +137,14 @@ img {
 }
 
 @media screen and (max-width: 768px) {
-  .lessons .row {
-    flex-direction: column;
-  }
-  .row .col {
-    width: 100%;
-  }
-
-  .steps .row {
-    flex-wrap: nowrap;
-  }
 }
 
 @media screen and (max-width: 480px) {
-  .steps .row {
+  .row {
     flex-wrap: wrap;
+  }
+  .lessons .col,
+  .steps .col {
+    width: 100%;
   }
 }
