@@ -138,18 +138,21 @@ img {
   flex-wrap: wrap;
 }
 
+/* Tablet Version */
 @media screen and (max-width: 768px) {
   .container {
     max-width: 768px;
   }
 }
 
+/* Mobile vesion*/
 @media screen and (max-width: 480px) {
   .container {
     max-width: 480px;
   }
   .lessons .col,
-  .steps .col {
+  .steps .col,
+  .why-us .col {
     width: 100%;
     padding-bottom: 35px;
   }
